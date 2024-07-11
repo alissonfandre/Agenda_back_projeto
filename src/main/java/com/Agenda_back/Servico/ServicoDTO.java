@@ -35,6 +35,6 @@ public class ServicoDTO implements Serializable {
     @NotNull(message = "O campo CATEGORIA é requerido.")
     private Categoria categoria;
     @JsonIgnore
-    @NotNull(message = "O campo PRESTADOR é requerido.")
+    @NotNull(message = "O campo. PRESTADOR é requerido.")
     private Prestador prestador;
 }
